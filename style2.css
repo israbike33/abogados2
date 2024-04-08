@@ -1,0 +1,372 @@
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  height: 26px;
+  background-color: #fff23;
+  color: #fff;
+  padding: 20px 0;
+  position: relative;
+}
+
+
+.titul {
+    margin: 0;
+    border-bottom: 4px solid white;
+    padding-bottom: 10px;
+}
+.usuari {
+  position: fixed;
+  top: 25px;
+  right: 20px;
+  color: #ffffff;
+   font-size: 24px;
+}
+.contenidor{
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  height: 280px;
+  background:#ffffff;
+  background-size: 100% 150%;
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  
+}
+.correu{
+  position: absolute;
+  top:25px;
+  left: 20px;
+  color: #ffffff;
+  font-size: 24px;
+}
+.comptes{
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+  color: #FEBF74;
+  background-color: #ffffff; 
+  border: 3px solid #FFECD5;
+  border-radius: 5px;
+  padding: 7px 15px;
+}
+.fa-arrow-right{
+  margin-left: 5px;
+  vertical-align: middl;
+}
+
+.total{
+font-size: 25px;
+font-style: italic;
+margin-top: 18px;  
+color: #fff;
+}
+
+.num{
+   font-size: 35px;
+   margin-top: 7px;
+   text-decoration: underline;
+   font-style: italic;
+}
+
+#rectangle{
+  width: 370px;
+  height: 175px;
+  background-image: url('https://periodicoelguacho.com/wp-content/uploads/2018/05/Captura-de-pantalla-2018-05-15-a-las-08.14.26-01.png');
+  background-size: 70%;
+  background-position: center; 
+   background-color: #fff;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin: 20px auto; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+}
+.textos{
+  display: flex;
+  justify-content: space-between;
+ 
+ 
+}
+
+.ultimsmoviments{
+   font-size: 20px;
+    color: #7D7C7C;
+    text-align: center;
+  margin-top: 5px;
+  margin-left: 70px;
+
+}
+
+.veurenmes{
+  font-size: 20px;
+    color: blue;
+    float: right;
+   clear: both;
+  margin-top: 5px;
+  margin-right: 80px;
+}
+body {
+  background-color: #ffffff;
+}
+
+.cuadrat {
+  width: 600px; 
+  height: 300px; 
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cuadraat {
+  width: 680px; 
+  height: 130px; 
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .cuadrat {
+    width: 90%; 
+    height: 30vh; 
+  }
+}
+
+.linia-superior,
+.linia-inferior {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px; 
+  background-color: #CECBCB; 
+}
+
+.linia-superior {
+  top: 0;
+}
+.linia-inferior {
+  bottom: 0;
+}
+
+.taula {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+.taula td {
+ 
+  text-align: center;
+  font-size: 20px;
+}
+
+.avui {
+  color: #7D7C7C; 
+}
+.bizum-enviat {
+  color: #000; 
+}
+.-deu {
+  color: #7D7C7C; 
+}
+.mes {
+  color: #1DAF0C; 
+}
+
+.fas.fa-paper-plane {
+  color: black;
+}
+
+
+.taulaa {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+.taulaa td {
+ 
+  text-align: center;
+  font-size: 20px;
+}
+
+.avuiopaper{
+  color: #000;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.transfer{
+  color: #000;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.gestor{
+  color: #000;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.nou-cuadrat {
+  display: flex;
+  width: 680px;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+ 
+}
+
+.targetes {
+  font-size: 30px;
+  color: #474747;
+  margin-left: 50px;
+  margin-top: -90px;
+}
+
+.veure-tot {
+  font-size: 20px;
+  color: blue;
+  margin-right: 50px;
+  margin-top: -90px;
+}
+
+.menu-inferior {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FCB866;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.menu-inferior a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 22px;
+  margin: 0 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.menu-inferior i {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.espacio-inferior {
+  height: 50px; /* Ajusta el valor según sea necesario */
+}
+
+
+orderStatus {
+  margin: 10px auto 70px;
+  display: flex;
+  flex-direction: column;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+.orderStatus .step-head {
+  flex: none;
+  display: flex;
+  justify-content: space-between;
+}
+.orderStatus .step-body {
+  display: flex;
+  flex: 1;
+  margin: 1.5rem 0;
+  position: relative;
+  left: 60px;
+}
+.orderStatus:not(#payment-online) .step-body {
+  left: 70px;
+}
+.orderStatus .step {
+  flex: 1;
+  text-align: center;
+}
+.orderStatus .step.icon > span {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 100%;
+  background-color: #999;
+  margin-left: auto;
+  margin-right: auto;
+}
+.orderStatus .step.icon.active ~ .icon:not(.active):not(.canceled):not(.current) {
+  opacity: 0.5;
+}
+.orderStatus .step.name > span {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 75%;
+}
+.orderStatus .step.line.active ~ .line:not(.active):not(.canceled):not(.current) {
+  opacity: 0.5;
+}
+.orderStatus .step.line {
+  height: 2px;
+  background-color: lightgrey;
+  position: relative;
+}
+.orderStatus .step.line::after {
+  content: attr(status);
+  display: block;
+  max-width: 75%;
+  left: -50px;
+  position: relative;
+  margin-top: 1.5rem;
+}
+.orderStatus .step.line::before {
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #fff;
+  display: block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background-color: lightgrey;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 100%;
+}
+.orderStatus .step.line:last-child {
+  min-width: 0;
+  background-color: transparent;
+}
+.orderStatus .step.line.line.active {
+  background-color: #1a5036;
+}
+.orderStatus .step.line.line.active::before {
+  background-color: #1a5036;
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='48px' height='48px' viewBox='0 0 48 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='48' height='48' fill='white' fill-opacity='0.01'/%3E%3Cpath d='M43 11L16.875 37L5 25.1818' stroke='white' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+.orderStatus .step.line.line.canceled:not(.active)::before {
+  background-color: #ea4335;
+  background-image: url("data:image/svg+xml,%0A%3Csvg width='36px' height='36px' viewBox='0 0 36 36' version='1.1' preserveAspectRatio='xMidYMid meet' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Etimes-line%3C/title%3E%3Cpath fill='white' class='clr-i-outline clr-i-outline-path-1' d='M19.41,18l8.29-8.29a1,1,0,0,0-1.41-1.41L18,16.59,9.71,8.29A1,1,0,0,0,8.29,9.71L16.59,18,8.29,26.29a1,1,0,1,0,1.41,1.41L18,19.41l8.29,8.29a1,1,0,0,0,1.41-1.41Z'%3E%3C/path%3E%3Crect x='0' y='0' width='36' height='36' fill-opacity='0'/%3E%3C/svg%3E");
+}
+.orderStatus .step.line.line.current::before {
+  background-color: #fff;
+  border: 2px solid #1a5036;
+}
+.orderStatus .step.line.line.active.canceled {
+  background-color: #ea4335;
+}
+.orderStatus .step.line.line.active.keep {
+  background-color: lightgrey !important;
+}
+
+.tc {
+  text-align: center;
+}
+
+h2:not(:last-child) {
+  margin-bottom: 3rem;
+}
